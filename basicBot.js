@@ -54,7 +54,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://raw.githubusercontent.com/hallopiu/basicBot-customization/master/extension.js", function (json) {
+        $.get("https://gist.githubusercontent.com/hallopiu/9073d9441ed623942c2e/raw/8b99562acca5b17e4b5c4b79fb665e1486661455/gistfile1.txt", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
